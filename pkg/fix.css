@@ -1,0 +1,39 @@
+
+.tabulator {
+  background-color:none !important;
+  background:none !important;
+}
+
+.tabulator .tabulator-header {
+  background-color:none !important;
+  background:none !important;
+}
+
+.tabulator .tabulator-header .tabulator-col {
+  background-color:none !important;
+  background:none !important;
+}
+
+.tabulator .tabulator-header .tabulator-col.tabulator-moving,
+.tabulator .tabulator-header .tabulator-col .tabulator-col-content .tabulator-col-title .tabulator-title-editor,
+.tabulator .tabulator-header .tabulator-col.tabulator-sortable:hover,
+.tabulator .tabulator-header .tabulator-calcs-holder,
+.tabulator .tabulator-header .tabulator-calcs-holder .tabulator-row,
+.tabulator .tabulator-tableholder .tabulator-table .tabulator-row.tabulator-calcs,
+.tabulator .tabulator-footer,
+.tabulator .tabulator-footer .tabulator-calcs-holder,
+.tabulator .tabulator-footer .tabulator-calcs-holder .tabulator-row,
+.tabulator .tabulator-footer .tabulator-page,
+.tabulator .tabulator-footer .tabulator-page:not(.disabled):hover ,
+.tabulator .tabulator-alert,
+.tabulator .tabulator-alert .tabulator-alert-msg,
+.tabulator-row,
+.tabulator-row.tabulator-row-even,
+.tabulator-row.tabulator-selectable:hover,
+.tabulator-row.tabulator-selected,
+.tabulator-row.tabulator-selected:hover ,
+.tabulator-row.tabulator-row-moving,
+.tabulator .tabulator-tableholder .tabulator-table {
+  background-color:none !important;
+  background:none !important;
+}

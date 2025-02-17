@@ -1,0 +1,47 @@
+<form class="form-horizontal ownLogic" >
+
+
+  <fieldset>
+    <div class="form-group">
+
+      <div class="col-sm-6" >
+
+        <input type="text" name="filter" value="" >
+
+
+        <div class="waxed-tabulator"
+          data-name="payload1"
+
+        ></div>
+
+
+        <div style="clear:both;"></div>
+        <button class="action" 
+        data-action="payload1/download" 
+        data-filename="example.csv"
+        data-delimiter="|"
+        >download csv</button>
+        <button class="action" 
+        data-action="payload1/download" 
+        data-type="xlsx"
+        data-filename="example.xlsx"
+        >download xlsx</button>
+        <button class="action" 
+        data-action="payload1/download" 
+        data-type="json"
+        data-filename="example.json"
+        >download json</button>
+        <button class="action" 
+        data-action="payload1/download" 
+        data-type="jsonLines"
+        data-filename="example.txt"
+        >download json lines</button>        
+        <div style="clear:both;"></div>
+      </div>
+
+    </div>
+  </fieldset>
+
+  <!--input class="jam-showme" type="hidden" name="action" value="showme" data-where="#jsonview_submited" data-interval="false" -->
+</form>
+
